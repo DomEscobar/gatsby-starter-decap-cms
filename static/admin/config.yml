@@ -42,6 +42,7 @@ collections:
       - file: "src/pages/index.md"
         label: "Landing Page"
         name: "index"
+        i18n: true
         fields:
           - {
               label: "Template Key",
