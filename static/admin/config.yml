@@ -30,6 +30,7 @@ collections:
     # can also be a boolean to accept the top level defaults
     i18n: true
   - name: "blog"
+      i18n: true
     label: "Blog"
     folder: "src/pages/blog"
     create: true
@@ -51,6 +52,9 @@ collections:
 
   - name: "pages"
     label: "Pages"
+        i18n:
+      structure: single_file
+      locales: [en, de, fr]
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
@@ -63,9 +67,9 @@ collections:
               default: "index-page",
             }
           - { label: Title, name: title, widget: string, i18n: true }
-          - { label: Image, name: image, widget: image }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
+          - { label: Image, name: image, widget: image, i18n: true }
+          - { label: Heading, name: heading, widget: string, i18n: true }
+          - { label: Subheading, name: subheading, widget: string, i18n: true }
           - {
               label: Mainpitch,
               name: mainpitch,
