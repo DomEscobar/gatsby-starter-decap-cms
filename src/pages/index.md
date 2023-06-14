@@ -24,7 +24,7 @@ en:
       image: /img/flavor_wheel.jpg
       alt: test
 de:
-  title: ""
+  title: test FDSFSDF
   image: /img/apple-touch-icon.png
   subheading: test
 fr:
