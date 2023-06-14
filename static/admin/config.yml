@@ -49,12 +49,11 @@ collections:
               name: "templateKey",
               widget: "hidden",
               default: "index-page",
-              i18n: true
             }
           - { label: Title, name: title, widget: string, i18n: true }
-          - { label: Image, name: image, widget: image, i18n: true }
+          - { label: Image, name: image, widget: image, i18n: duplicate }
           - { label: Heading, name: heading, widget: string, i18n: true }
-          - { label: Subheading, name: subheading, widget: string, i18n: true }
+          - { label: Subheading, name: subheading, widget: string, i18n: duplicate }
           - {
               label: Mainpitch,
               name: mainpitch,
