@@ -30,7 +30,6 @@ collections:
     # can also be a boolean to accept the top level defaults
     i18n: true
   - name: "blog"
-      i18n: true
     label: "Blog"
     folder: "src/pages/blog"
     create: true
@@ -52,7 +51,7 @@ collections:
 
   - name: "pages"
     label: "Pages"
-        i18n:
+    i18n:
       structure: single_file
       locales: [en, de, fr]
     files:
